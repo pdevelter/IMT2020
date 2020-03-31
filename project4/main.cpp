@@ -95,7 +95,7 @@ int main() {
 
         std::cout << timeSteps << "\t" << option.NPV() << std::endl;
     }
-            std::cout << "Number of timeSetps to reach 0.0001 of precision:" << std::endl;
+            std::cout << "Number of timeSetps to reach 0.00001 of precision:" << std::endl;
             std::cout << "CoxRossRubinstein" << std::endl;
 
     std::cout << "with oscillation" << std::endl;
@@ -131,7 +131,7 @@ int main() {
     clock_t t1;
     clock_t t2;
     std::cout << "CoxRossRubinstein" << std::endl;
-    timeSteps=10000;
+    timeSteps=1000;
     std::cout << "with oscillation" << std::endl;
     std::cout << std::setprecision(10);
     no_osc_flag= false;
